@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">Shixels Excercise</string>
+    <string name="app_name">Dating Application</string>
 
     <string name="username">User name</string>
     <string name="password">Password</string>
     <string name="remember_me">Remember me</string>
+    <string name="login">LOGIN</string>
+    <string name="meet_people">Meet new people, Family &amp; Friends</string>
 </resources>
