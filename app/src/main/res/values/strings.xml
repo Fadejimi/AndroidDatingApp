@@ -6,4 +6,16 @@
     <string name="remember_me">Remember me</string>
     <string name="login">LOGIN</string>
     <string name="meet_people">Meet new people, Family &amp; Friends</string>
+
+    <string name="name">Fadejimi Adegbulugbe</string>
+    <string name="title">Android Developer</string>
+    <string name="company_name">Shixels Studio LTD</string>
+
+    <string name="nav_feed">Feeds</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_post">Posts</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_logout">Logout</string>
+
 </resources>

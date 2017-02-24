@@ -1,5 +1,46 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="large_txt">20dp</dimen>
+
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    ♦
+    <dimen name="btn_min_width">100dp</dimen>
+    <dimen name="btn_list_criteria_height">36dp</dimen>
+    <dimen name="min_btn_list_criteria_height">30dp</dimen>
+
+    <dimen name="padding_xxlarge">18dp</dimen>
+    <dimen name="padding_xlarge">16dp</dimen>
+    <dimen name="padding_large">12dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_small">6dp</dimen>
+    <dimen name="padding_xsmall">4dp</dimen>
+    <dimen name="padding_empty">0dp</dimen>
+
+    <dimen name="txt_size_xxlarge">24sp</dimen>
+    <dimen name="txt_size_xlarge">20sp</dimen>
+    <dimen name="txt_size_large">18sp</dimen>
+    <dimen name="txt_size_medium">16sp</dimen>
+    <dimen name="txt_size_small">14sp</dimen>
+    <dimen name="txt_size_xsmall">12sp</dimen>
+    <dimen name="btn_list_menu_height">45dp</dimen>
+    <dimen name="btn_round_padding">6dp</dimen>
+    <dimen name="btn_round_image_padding">8dp</dimen>
+    <dimen name="order_card_margin">10dp</dimen>
+    <dimen name="order_card_margin_top">5dp</dimen>
+    <dimen name="order_card_margin_bottom">10dp</dimen>
+    <dimen name="btn_medium_height">42dp</dimen>
+    <dimen name="default_card_margin_bottom">2dp</dimen>
+
+    <!-- calendar dimensions -->
+    <dimen name="btn_radius">2dp</dimen>
 </resources>
