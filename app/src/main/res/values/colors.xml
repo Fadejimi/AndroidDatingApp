@@ -39,6 +39,8 @@
     <color name="tpi_checked">#FFFFFFFF</color>
     <color name="tpi_unchecked">#99FFFFFF</color>
 
+    <color name="text_color">#6E6877</color>
+
     <color name="dark_primary">#37474F</color>
     <color name="dark_primary_dark">#263238</color>
     <color name="dark_primary_light">#D7CCC8</color>
