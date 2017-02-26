@@ -23,8 +23,8 @@ public class SharedPreferencesUtil {
 
     public static String readSharedLoginPrefs(Context context) {
         SharedPreferences preferences = context.getSharedPreferences(LOGIN_PREF, Context.MODE_PRIVATE);
-        Log.d(TAG, "readSharedLoginPrefs: " + preferences.getString("login", ""));
-        return preferences.getString("login", "");
+        Log.d(TAG, "readSharedLoginPrefs: " + preferences.getString("login", null));
+        return preferences.getString("login", null);
     }
 
     public static void clearSharedLoginPres(Context context) {

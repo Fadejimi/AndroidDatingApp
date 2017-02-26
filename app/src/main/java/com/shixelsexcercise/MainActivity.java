@@ -41,6 +41,19 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        showHomeView();
+    }
+
+    private void showHomeView() {
+        Fragment fragment = new FeedFragment();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.container_body, fragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+        getSupportActionBar().setTitle("Feed");
     }
 
     @Override

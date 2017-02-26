@@ -15,18 +15,18 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.LoadImage;
+//import model.LoadImage;
 
 /**
  * Created by Fadejimi on 2/24/17.
  */
 
 public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.MyViewHolder> {
-    private List<String> loadImageList;
+    private List<Integer> loadImageList;
     private Context context;
     private final static String TAG = FeedAdapter.class.getSimpleName();
 
-    public FeedAdapter(Context context, List<String> imageList) {
+    public FeedAdapter(Context context, List<Integer> imageList) {
         this.context = context;
         this.loadImageList = imageList;
     }
@@ -40,9 +40,10 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.MyViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(final MyViewHolder viewHolder, final int i) {
+    public void onBindViewHolder(MyViewHolder viewHolder, int i) {
         int width = viewHolder.image_view.getWidth();
         Log.d(TAG, "Image width is " + width);
+        System.out.println("Image width is " + width);
         Picasso.with(context).load(loadImageList.get(i)).resize(width, 150).into(viewHolder.image_view);
         //Picasso.with(context).load(loadImageList.get(i).getImageName()).resize(120,60).into(viewHolder.image_view);
     }

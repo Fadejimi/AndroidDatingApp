@@ -6,21 +6,6 @@
 
     <color name="colorNew">#FB8083</color>
 
-    <!-- light login view -->
-    <color name="light_primary">#607D8B</color>
-    <color name="light_primary_dark">#455A64</color>
-    <color name="light_primary_light">#CFD8DC</color>
-    <color name="light_accent">#607D8B</color>
-    <color name="light_primary_text">#212121</color>
-    <color name="light_secondary_text">#727272</color>
-    <color name="light_icons">#FFFFFF</color>
-    <color name="light_divider">#B6B6B6</color>
-    <color name="light_primary_alpha_50">#B3607D8B</color>
-    <color name="light_secondary_text_alpha_30">#4d607D8B</color>
-    <color name="light_secondary_text_alpha_10">#1f607d8b</color>
-
-    <color name="theme_window_background">#F0F0F0</color>
-
     <color name="orange">#ff9800</color>
     <color name="alpha_orange">#B3ff8800</color>
     <color name="alpha_orange_100">#40ff8800</color>
@@ -36,84 +21,10 @@
     <color name="grey_800">#424242</color>
     <color name="grey_900">#212121</color>
 
-    <color name="tpi_checked">#FFFFFFFF</color>
-    <color name="tpi_unchecked">#99FFFFFF</color>
 
     <color name="text_color">#6E6877</color>
 
-    <color name="dark_primary">#37474F</color>
-    <color name="dark_primary_dark">#263238</color>
-    <color name="dark_primary_light">#D7CCC8</color>
-    <color name="dark_accent">#FF5722</color>
-    <color name="dark_control_normal">#80FF5722</color>
-    <color name="dark_primary_text">#212121</color>
-    <color name="dark_primary_hint_text">#4DFF5722</color>
-    <color name="dark_secondary_text">#727272</color>
-    <color name="dark_text_and_icons">#FFFFFF</color>
-    <color name="dark_divider">#B6B6B6</color>
-    <color name="dark_input_background">#455A64</color>
-
-    <color name="alpha_white_90">#E6FFFFFF</color>
-    <color name="alpha_white_80">#CCFFFFFF</color>
-    <color name="alpha_white_50">#80FFFFFF</color>
-    <color name="alpha_white_25">#40FFFFFF</color>
-    <color name="alpha_white_15">#26FFFFFF</color>
-    <color name="alpha_white_70">#B3FFFFFF</color>
-
-    <color name="black_transparent_1">#CC000000</color>
-    <color name="black_transparent_2">#2000</color>
-
-    <color name="black_transparent_3">#0D000000</color>
-    <color name="black_transparent_4">#40000000</color>
-
-    <color name="card_pressed">#400099CC</color>
-    <color name="card_activated">#CFE9F3</color>
-    <color name="card_foreground_activated">#99CFE9F3</color>
-    <color name="grid_background">#fffafafa</color>
-    <color name="card_view_grid_background">#f4f4f4</color>
-    <color name="detail_header_background">#1c1c1c</color>
-
-    <color name="wizard_dark_accent">@color/alpha_white_80</color>
-    <color name="wizard_dark_control_normal">@color/alpha_white_50</color>
-    <color name="wizard_dark_primary_text">#FFFFFF</color>
-    <color name="wizard_dark_primary_hint">#4DFFFFFF</color>
-    <color name="wizard_dark_secondary_text">@color/alpha_white_70</color>
-    <color name="wizard_dark_text_and_icons">#FFFFFF</color>
-    <color name="wizard_dark_divider">@color/alpha_white_15</color>
-
-    <color name="wizard_default_dark_background">#CC424242</color>
-    <color name="wizard_default_dark_divider">#757575</color>
-    <color name="wizard_default_dark_custom_tab">#9E9E9E</color>
-    <color name="wizard_default_light_normal_text">#D9212121</color>
-    <color name="wizard_default_light_disable_text">#40212121</color>
-
-    <color name="wizard_custom_bg">#009688</color>9E9E9E
-    <color name="wizard_custom_bg_400">#26A69A</color>
-    <color name="wizard_custom_bg_200">#80CBC4</color>
-
-    <color name="wizard_colorPrimary">#e62117</color>
-    <color name="wizard_colorPrimaryDark">#c31c13</color>
-    <color name="tabsScrollColor">#8a140e</color>
-
-    <color name="wizard_light_footer">#d3d3d3</color>
-
-
-    <!-- calendar collors -->
-    <color name="custom_text_color_normal">#ffffffff</color>
-    <color name="custom_text_color_disabled">#ffb2b2b2</color>
-    <color name="custom_divider_color">#ffffffff</color>
-    <color name="custom_button_background">#00000000</color>
-    <color name="custom_button_background_pressed">#ffcc6600</color>
-    <color name="custom_key_background">#00000000</color>
-    <color name="custom_key_background_pressed">#ffcc6600</color>
-    <color name="custom_keyboard_indicator_color">#ffcc6600</color>
-
-    <color name="custom_tp_main1">#d32f2f</color>
-    <color name="custom_tp_main2">#f44336</color>
-    <color name="custom_tp_accent">#536dfe</color>
-    <color name="custom_tp_text">#ffffff</color>
-    <color name="custom_tp_divider">#808080</color>
-
+    <color name="icon_color">#E73D48</color>
 
     <color name="White">#FFFFFF</color>
     <color name="Ivory">#FFFFF0</color>

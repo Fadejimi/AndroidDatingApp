@@ -21,7 +21,7 @@ import adapter.FeedAdapter;
  */
 public class FeedFragment extends Fragment {
 
-    private final String android_image_urls[] = {
+    /*private final String android_image_urls[] = {
             "http://api.learn2crack.com/android/images/donut.png",
             "http://api.learn2crack.com/android/images/eclair.png",
             "http://api.learn2crack.com/android/images/froyo.png",
@@ -32,6 +32,16 @@ public class FeedFragment extends Fragment {
             "http://api.learn2crack.com/android/images/kitkat.png",
             "http://api.learn2crack.com/android/images/lollipop.png",
             "http://api.learn2crack.com/android/images/marshmallow.png"
+    };*/
+
+    private final int android_cars[] = {
+            R.drawable.car1,
+            R.drawable.car2,
+            R.drawable.car3,
+            R.drawable.car4,
+            R.drawable.car5,
+            R.drawable.car6,
+            R.drawable.car7
     };
 
     public FeedFragment() {
@@ -50,17 +60,17 @@ public class FeedFragment extends Fragment {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         rv.setLayoutManager(layoutManager);
 
-        List<String> loadImageList = prepareData();
+        List<Integer> loadImageList = prepareData();
         FeedAdapter adapter = new FeedAdapter(getContext(), loadImageList);
         rv.setAdapter(adapter);
         return view;
     }
 
-    private List<String> prepareData() {
-        List<String> result = new ArrayList<>();
+    private List<Integer> prepareData() {
+        List<Integer> result = new ArrayList<>();
 
-        for (String st : android_image_urls) {
-            result.add(st);
+        for (int i : android_cars) {
+            result.add(i);
         }
 
         return result;
